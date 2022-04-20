@@ -1,0 +1,64 @@
+_____________________________________________________________________________________________________________
+Fichier en cours: C:\Users\ancea\Desktop\TestGraphe/graphe2.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3
+   ___________________
+0 |INF    1    5  INF  
+1 |INF  INF   -3    5  
+2 |INF  INF  INF    2  
+3 |INF  INF  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3
+   ___________________
+0 |  0    1    5  INF  
+1 |INF    0   -3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    6  
+1 |INF    0   -3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 3:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    0  
+1 |INF    0   -3   -1  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 4:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    0  
+1 |INF    0   -3   -1  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    0  
+1 |INF    0   -3   -1  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+

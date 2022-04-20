@@ -1,0 +1,702 @@
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe1.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3
+   ___________________
+0 |INF    1    5  INF  
+1 |INF  INF    3    5  
+2 |INF  INF  INF    2  
+3 |INF  INF  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3
+   ___________________
+0 |  0    1    5  INF  
+1 |INF    0    3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3
+   ___________________
+0 |  0    1    4    6  
+1 |INF    0    3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 3:
+
+     0    1    2    3
+   ___________________
+0 |  0    1    4    6  
+1 |INF    0    3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 4:
+
+     0    1    2    3
+   ___________________
+0 |  0    1    4    6  
+1 |INF    0    3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+     0    1    2    3
+   ___________________
+0 |  0    1    4    6  
+1 |INF    0    3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe2.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3
+   ___________________
+0 |INF    1    5  INF  
+1 |INF  INF   -3    5  
+2 |INF  INF  INF    2  
+3 |INF  INF  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3
+   ___________________
+0 |  0    1    5  INF  
+1 |INF    0   -3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    6  
+1 |INF    0   -3    5  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 3:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    0  
+1 |INF    0   -3   -1  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Itération 4:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    0  
+1 |INF    0   -3   -1  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -2    0  
+1 |INF    0   -3   -1  
+2 |INF  INF    0    2  
+3 |INF  INF  INF    0  
+
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe5.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3
+   ___________________
+0 |INF    1   -5  INF  
+1 |INF  INF   -3    2  
+2 |  6    4  INF    2  
+3 |INF  INF    2  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -5  INF  
+1 |INF    0   -3    2  
+2 |  6    4    0    2  
+3 |INF  INF    2    0  
+
+
+Itération 2:
+
+     0    1    2    3
+   ___________________
+0 |  0    1   -5    3  
+1 |INF    0   -3    2  
+2 |  6    4    0    2  
+3 |INF  INF    2    0  
+
+
+Itération 3:
+
+    0   1   2   3
+   _______________
+0 | 0  -1  -5  -3  
+1 | 3   0  -3  -1  
+2 | 6   4   0   2  
+3 | 8   6   2   0  
+
+
+Itération 4:
+
+    0   1   2   3
+   _______________
+0 | 0  -1  -5  -3  
+1 | 3   0  -3  -1  
+2 | 6   4   0   2  
+3 | 8   6   2   0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+    0   1   2   3
+   _______________
+0 | 0  -1  -5  -3  
+1 | 3   0  -3  -1  
+2 | 6   4   0   2  
+3 | 8   6   2   0  
+
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe6.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3
+   ___________________
+0 |INF    1  INF  INF  
+1 |INF   -1   -3    2  
+2 |  6    1  INF    2  
+3 |INF  INF    2  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3
+   ___________________
+0 |  0    1  INF  INF  
+1 |INF   -1   -3    2  
+2 |  6    1    0    2  
+3 |INF  INF    2    0  
+
+
+Itération 2:
+
+     0    1    2    3
+   ___________________
+0 |  0    0   -3    2  
+1 |INF   -2   -5    0  
+2 |  6   -1   -6   -1  
+3 |INF  INF    2    0  
+
+
+Itération 3:
+
+     0    1    2    3
+   ___________________
+0 |  0   -4   -9  -10  
+1 |  1   -6  -11  -12  
+2 |  0   -7  -12  -13  
+3 |  2   -5  -10  -23  
+
+
+Itération 4:
+
+     0    1    2    3
+   ___________________
+0 | -8  -15  -20  -33  
+1 |-10  -17  -22  -35  
+2 |-11  -18  -23  -36  
+3 |-21  -28  -33  -46  
+
+
+Il y a un circuit absorbant dans le graphe dans la diagonale de la ligne 3
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe8.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3    4
+   ________________________
+0 |INF    1    2    1  INF  
+1 |INF  INF  INF  INF    3  
+2 |INF  INF  INF    1    1  
+3 |INF  INF  INF  INF    4  
+4 |INF  INF  INF  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1  INF  
+1 |INF    0  INF  INF    3  
+2 |INF  INF    0    1    1  
+3 |INF  INF  INF    0    4  
+4 |INF  INF  INF  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1    4  
+1 |INF    0  INF  INF    3  
+2 |INF  INF    0    1    1  
+3 |INF  INF  INF    0    4  
+4 |INF  INF  INF  INF    0  
+
+
+Itération 3:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1    3  
+1 |INF    0  INF  INF    3  
+2 |INF  INF    0    1    1  
+3 |INF  INF  INF    0    4  
+4 |INF  INF  INF  INF    0  
+
+
+Itération 4:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1    3  
+1 |INF    0  INF  INF    3  
+2 |INF  INF    0    1    1  
+3 |INF  INF  INF    0    4  
+4 |INF  INF  INF  INF    0  
+
+
+Itération 5:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1    3  
+1 |INF    0  INF  INF    3  
+2 |INF  INF    0    1    1  
+3 |INF  INF  INF    0    4  
+4 |INF  INF  INF  INF    0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1    3  
+1 |INF    0  INF  INF    3  
+2 |INF  INF    0    1    1  
+3 |INF  INF  INF    0    4  
+4 |INF  INF  INF  INF    0  
+
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe9.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3    4
+   ________________________
+0 |INF    1    2    1  INF  
+1 |INF    2  INF  INF  INF  
+2 |INF  INF  INF   -2    1  
+3 |INF  INF  INF  INF    4  
+4 |INF    3  INF  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1  INF  
+1 |INF    0  INF  INF  INF  
+2 |INF  INF    0   -2    1  
+3 |INF  INF  INF    0    4  
+4 |INF    3  INF  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    1  INF  
+1 |INF    0  INF  INF  INF  
+2 |INF  INF    0   -2    1  
+3 |INF  INF  INF    0    4  
+4 |INF    3  INF  INF    0  
+
+
+Itération 3:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    0    3  
+1 |INF    0  INF  INF  INF  
+2 |INF  INF    0   -2    1  
+3 |INF  INF  INF    0    4  
+4 |INF    3  INF  INF    0  
+
+
+Itération 4:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    0    3  
+1 |INF    0  INF  INF  INF  
+2 |INF  INF    0   -2    1  
+3 |INF  INF  INF    0    4  
+4 |INF    3  INF  INF    0  
+
+
+Itération 5:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    0    3  
+1 |INF    0  INF  INF  INF  
+2 |INF    4    0   -2    1  
+3 |INF    7  INF    0    4  
+4 |INF    3  INF  INF    0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    2    0    3  
+1 |INF    0  INF  INF  INF  
+2 |INF    4    0   -2    1  
+3 |INF    7  INF    0    4  
+4 |INF    3  INF  INF    0  
+
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe10.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3    4
+   ________________________
+0 |INF    1  INF  INF  INF  
+1 |INF  INF    2  INF  INF  
+2 |INF  INF  INF    3  INF  
+3 |INF  INF  INF  INF   -6  
+4 |  0  INF  INF  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1  INF  INF  INF  
+1 |INF    0    2  INF  INF  
+2 |INF  INF    0    3  INF  
+3 |INF  INF  INF    0   -6  
+4 |  0    1  INF  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    3  INF  INF  
+1 |INF    0    2  INF  INF  
+2 |INF  INF    0    3  INF  
+3 |INF  INF  INF    0   -6  
+4 |  0    1    3  INF    0  
+
+
+Itération 3:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    3    6  INF  
+1 |INF    0    2    5  INF  
+2 |INF  INF    0    3  INF  
+3 |INF  INF  INF    0   -6  
+4 |  0    1    3    6    0  
+
+
+Itération 4:
+
+     0    1    2    3    4
+   ________________________
+0 |  0    1    3    6    0  
+1 |INF    0    2    5   -1  
+2 |INF  INF    0    3   -3  
+3 |INF  INF  INF    0   -6  
+4 |  0    1    3    6    0  
+
+
+Itération 5:
+
+    0   1   2   3   4
+   ___________________
+0 | 0   1   3   6   0  
+1 |-1   0   2   5  -1  
+2 |-3  -2   0   3  -3  
+3 |-6  -5  -3   0  -6  
+4 | 0   1   3   6   0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+    0   1   2   3   4
+   ___________________
+0 | 0   1   3   6   0  
+1 |-1   0   2   5  -1  
+2 |-3  -2   0   3  -3  
+3 |-6  -5  -3   0  -6  
+4 | 0   1   3   6   0  
+
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe11.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3    4
+   ________________________
+0 |INF  INF    2    1  INF  
+1 |  1    2  INF  INF  INF  
+2 |INF  INF  INF   -2  INF  
+3 |INF  INF  INF  INF    4  
+4 |INF    3   -1  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3    4
+   ________________________
+0 |  0  INF    2    1  INF  
+1 |  1    0    3    2  INF  
+2 |INF  INF    0   -2  INF  
+3 |INF  INF  INF    0    4  
+4 |INF    3   -1  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3    4
+   ________________________
+0 |  0  INF    2    1  INF  
+1 |  1    0    3    2  INF  
+2 |INF  INF    0   -2  INF  
+3 |INF  INF  INF    0    4  
+4 |  4    3   -1    5    0  
+
+
+Itération 3:
+
+     0    1    2    3    4
+   ________________________
+0 |  0  INF    2    0  INF  
+1 |  1    0    3    1  INF  
+2 |INF  INF    0   -2  INF  
+3 |INF  INF  INF    0    4  
+4 |  4    3   -1   -3    0  
+
+
+Itération 4:
+
+     0    1    2    3    4
+   ________________________
+0 |  0  INF    2    0    4  
+1 |  1    0    3    1    5  
+2 |INF  INF    0   -2    2  
+3 |INF  INF  INF    0    4  
+4 |  4    3   -1   -3    0  
+
+
+Itération 5:
+
+    0   1   2   3   4
+   ___________________
+0 | 0   7   2   0   4  
+1 | 1   0   3   1   5  
+2 | 6   5   0  -2   2  
+3 | 8   7   3   0   4  
+4 | 4   3  -1  -3   0  
+
+
+Il n'y a pas de circuit absorbant dans le graphe
+Matrice des plus courts chemins:
+
+    0   1   2   3   4
+   ___________________
+0 | 0   7   2   0   4  
+1 | 1   0   3   1   5  
+2 | 6   5   0  -2   2  
+3 | 8   7   3   0   4  
+4 | 4   3  -1  -3   0  
+
+
+_____________________________________________________________________________________________________________
+Fichier en cours: C:/Users/matte/Desktop/Projets/Projet Graph/E5_TestGraphe/E5_graphe12.txt
+
+----------- Matrice d'adjacence combinée à matrice de valeurs -----------
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |INF  INF    2    1  INF  INF  INF  INF  
+1 |  1  INF  INF  INF    1  INF  INF  INF  
+2 |INF  INF  INF   -2  INF  INF  INF  INF  
+3 |INF  INF    7  INF    4  INF  INF  INF  
+4 |INF    3   -1  INF  INF  INF  INF  INF  
+5 |INF  INF  INF  INF  INF  INF    1  INF  
+6 |INF  INF  INF  INF  INF   -2  INF   -2  
+7 |INF  INF  INF  INF  INF  INF  INF  INF  
+
+
+----------- Floyd_Warshall Warshall: -----------
+Itération 1:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0  INF    2    1  INF  INF  INF  INF  
+1 |  1    0    3    2    1  INF  INF  INF  
+2 |INF  INF    0   -2  INF  INF  INF  INF  
+3 |INF  INF    7    0    4  INF  INF  INF  
+4 |INF    3   -1  INF    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF    0    1  INF  
+6 |INF  INF  INF  INF  INF   -2    0   -2  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Itération 2:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0  INF    2    1  INF  INF  INF  INF  
+1 |  1    0    3    2    1  INF  INF  INF  
+2 |INF  INF    0   -2  INF  INF  INF  INF  
+3 |INF  INF    7    0    4  INF  INF  INF  
+4 |  4    3   -1    5    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF    0    1  INF  
+6 |INF  INF  INF  INF  INF   -2    0   -2  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Itération 3:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0  INF    2    0  INF  INF  INF  INF  
+1 |  1    0    3    1    1  INF  INF  INF  
+2 |INF  INF    0   -2  INF  INF  INF  INF  
+3 |INF  INF    7    0    4  INF  INF  INF  
+4 |  4    3   -1   -3    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF    0    1  INF  
+6 |INF  INF  INF  INF  INF   -2    0   -2  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Itération 4:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0  INF    2    0    4  INF  INF  INF  
+1 |  1    0    3    1    1  INF  INF  INF  
+2 |INF  INF    0   -2    2  INF  INF  INF  
+3 |INF  INF    7    0    4  INF  INF  INF  
+4 |  4    3   -1   -3    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF    0    1  INF  
+6 |INF  INF  INF  INF  INF   -2    0   -2  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Itération 5:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0    7    2    0    4  INF  INF  INF  
+1 |  1    0    0   -2    1  INF  INF  INF  
+2 |  6    5    0   -2    2  INF  INF  INF  
+3 |  8    7    3    0    4  INF  INF  INF  
+4 |  4    3   -1   -3    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF    0    1  INF  
+6 |INF  INF  INF  INF  INF   -2    0   -2  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Itération 6:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0    7    2    0    4  INF  INF  INF  
+1 |  1    0    0   -2    1  INF  INF  INF  
+2 |  6    5    0   -2    2  INF  INF  INF  
+3 |  8    7    3    0    4  INF  INF  INF  
+4 |  4    3   -1   -3    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF    0    1  INF  
+6 |INF  INF  INF  INF  INF   -2   -1   -2  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Itération 7:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0    7    2    0    4  INF  INF  INF  
+1 |  1    0    0   -2    1  INF  INF  INF  
+2 |  6    5    0   -2    2  INF  INF  INF  
+3 |  8    7    3    0    4  INF  INF  INF  
+4 |  4    3   -1   -3    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF   -1    0   -2  
+6 |INF  INF  INF  INF  INF   -3   -2   -4  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Itération 8:
+
+     0    1    2    3    4    5    6    7
+   _______________________________________
+0 |  0    7    2    0    4  INF  INF  INF  
+1 |  1    0    0   -2    1  INF  INF  INF  
+2 |  6    5    0   -2    2  INF  INF  INF  
+3 |  8    7    3    0    4  INF  INF  INF  
+4 |  4    3   -1   -3    0  INF  INF  INF  
+5 |INF  INF  INF  INF  INF   -1    0   -2  
+6 |INF  INF  INF  INF  INF   -3   -2   -4  
+7 |INF  INF  INF  INF  INF  INF  INF    0  
+
+
+Il y a un circuit absorbant dans le graphe dans la diagonale de la ligne 6
+
