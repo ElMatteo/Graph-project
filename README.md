@@ -1,5 +1,5 @@
 # Graph-project
-Graph project for EFREI Paris. Authors: CLABASSI Matteo, ANCEAUX Hugo, SAHMOUNE Hamza, AOUAT Antoine &amp; THOMAS
+Graph project for EFREI Paris. Authors: CLABASSI Matteo, ANCEAUX Hugo, SAHMOUNE Hamza, AOUAT Antoine & THOMAS
 
 ![Alt text](img/Consigne_1.png?raw=true "Instructon 1)
 ![Alt text](img/Consigne_2.png?raw=true "Instructon 2)
